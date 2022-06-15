@@ -62,5 +62,21 @@
         <members>Year_of_Class__c-Year of Class Layout</members>
         <name>Layout</name>
     </types>
+	    <types>
+        <members>HelloWorld</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Hello_World__c.Hello_World_Title__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Hello_World__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Hello_World__c</members>
+        <name>CustomTab</name>
+    </types>
     <version>53.0</version>
 </Package>
