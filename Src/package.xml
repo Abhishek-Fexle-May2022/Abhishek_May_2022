@@ -94,5 +94,20 @@
         <members>Dream_World__c</members>
         <name>CustomTab</name>
     </types>
+	<types>
+        <members>HelloWorldTestClass</members>
+        <members>MyHelloWorld</members>
+        <members>PrintDownTranglePattern</members>
+        <members>PrintLeftPattern</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>HelloWorldTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Book__c</members>
+        <name>CustomObject</name>
+    </types>
     <version>53.0</version>
 </Package>
