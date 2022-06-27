@@ -113,5 +113,9 @@
         <members>DifferentTypesOfDataAndMethods</members>
         <name>ApexClass</name>
     </types>
+	<types>
+		<members>ExpressionAndOperators</members>
+		<name>ApexClass</name>
+	</types>
     <version>53.0</version>
 </Package>
