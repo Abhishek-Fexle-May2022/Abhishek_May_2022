@@ -117,5 +117,17 @@
 		<members>ExpressionAndOperators</members>
 		<name>ApexClass</name>
 	</types>
+	<types>
+		<members>CallByValueAndRefrence</members>
+		<members>ControlFlowStatment</members>
+		<members>MethodOverloadingClasss</members>
+		<members>MethodOverriding</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>NonParameterizedConstructor</members>
+		<members>ParameterizedConstructor</members>
+		<name>ApexClass</name>
+	</types>
     <version>53.0</version>
 </Package>
