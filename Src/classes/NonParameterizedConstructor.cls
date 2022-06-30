@@ -8,5 +8,4 @@ public with sharing class NonParameterizedConstructor {
         system.debug('Name : ' + name);
         system.debug('Age : ' + age );
     }
-
 }
