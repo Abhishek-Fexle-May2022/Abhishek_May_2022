@@ -2,22 +2,19 @@ public with sharing class ControlFlowStatment {
     // If Else Statment
     public static void ifElseStatment(){
         Integer age=18;
-        if (age>=18) {
-            system.debug('You are eligible for voting.');
-            
+        if (age>=18){
+            system.debug('You are eligible for voting.');  
         }
         else {
             system.debug('You are not eligible for voting');
         }
-
     }
 
     public static void ifElseStatment_1(){
         Integer place=1;
         String medal_Color = '';
-        if (place == 1) {
-            medal_Color = 'Gold';
-            
+        if (place == 1){
+            medal_Color = 'Gold';  
         }
         else if (place == 2){
             medal_Color = 'Silver';
@@ -28,35 +25,27 @@ public with sharing class ControlFlowStatment {
         else{
             medal_Color =  null;
         }
-
         system.debug('Medal Color :' + medal_Color);
-
-
     }
 
     // Nested if else
     public static void ifElseStatment_2(){
         Integer age=20;
         Integer weight = 40;
-        if (age>18) {
-            if (weight > 50) {
+        if (age>18){
+            if (weight > 50){
                 system.debug('You are eligible to donate blood');
             }
             else{
                 system.debug('You are not eligible to donate blood');
             }
         } 
-        
         else {
             system.debug('Age must be greater than 18');
         }
     }
 
-
-
     // =====================================Loops=================================================== 
-
-
     // Do While
     public static void doWhileLoop(){
         Integer count = 1;
@@ -66,14 +55,12 @@ public with sharing class ControlFlowStatment {
         } while (count<=5);
     }
 
-
     // While Loop
     public static void WhileLoop(){
         Integer count = 1;
-        while (count<6) {
+        while (count<6){
             system.debug(count);
-            count++;
-            
+            count++;    
         }
     }
 
@@ -91,7 +78,6 @@ public with sharing class ControlFlowStatment {
         }
     }
 
-
     // For Loop 
     public static void forLoop(){
         Integer i;
@@ -108,7 +94,6 @@ public with sharing class ControlFlowStatment {
     }
 
     //  Number Pattern
-    
     public static void NumberPattern(){
         integer k=1;
         for(integer i=1;i<=5;i++){
@@ -119,12 +104,7 @@ public with sharing class ControlFlowStatment {
                     k++;
                 }
             }
-        
             system.debug(s);
-        
         }
-
     }
-    
-
 }
