@@ -9,20 +9,15 @@ public with sharing class CallByValueAndRefrence {
         changeWebsite(a);
         checkCallByValue(i);
         system.debug('Check I : ' + i);
-
     }
     public Account changeWebsite(Account b){
         b = new Account();
         b.Website = 'www.salesforce.com';
         system.debug('Website : ' + b.Website);
         return b;
-
     }
-
-
     public void checkCallByValue(Integer i){
         i=50;
         system.debug('Check I :' +i);
     }
-
 }
