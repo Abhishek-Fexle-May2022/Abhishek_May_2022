@@ -145,5 +145,13 @@
         <members>SobjectInsertUpdateClass</members>
         <name>ApexClass</name>
     </types>
+	<types>
+		<members>AddingAndRetrievingDataWithDml</members>
+		<members>InsertParentChildRecordDmlClass</members>
+		<members>InsertUpdateRecordsDml</members>
+		<members>RelatingRecordsByUsingExternalId</members>
+		<members>SingleVsBulkDMLOperations</members>
+		<name>ApexClass</name>
+	</types>
     <version>53.0</version>
 </Package>
