@@ -202,5 +202,13 @@
         <members>State__c</members>
         <name>SharingRules</name>
     </types>
+	<types>
+		<members>AccountTriggerHandler</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>Trigger_Account</members>
+		<name>ApexTrigger</name>
+	</types>
     <version>53.0</version>
 </Package>
